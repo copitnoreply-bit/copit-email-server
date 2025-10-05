@@ -26,7 +26,7 @@ const sendEmail = async (toEmail, subject, htmlContent, textContent) => {
     body: JSON.stringify({
       sender: {
         name: 'COPit',
-        email: 'kcanapati6@gmail.com'
+        email: 'copit.noreply@gmail.com'
       },
       to: [
         {
